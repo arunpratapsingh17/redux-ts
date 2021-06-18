@@ -1,6 +1,6 @@
 import axios from "axios";
 import { Dispatch } from "redux";
-import { Action } from "../state/action";
+import { Action } from "../action";
 
 const searchRepositories=(term:string)=>{
     return async(dispatch:Dispatch<Action>)=>{
