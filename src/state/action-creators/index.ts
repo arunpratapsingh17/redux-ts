@@ -2,7 +2,7 @@ import axios from "axios";
 import { Dispatch } from "redux";
 import { Action } from "../action";
 
-const searchRepositories=(term:string)=>{
+export const searchRepositories=(term:string)=>{
     return async(dispatch:Dispatch<Action>)=>{
         dispatch({
             type:"search_repositories"
